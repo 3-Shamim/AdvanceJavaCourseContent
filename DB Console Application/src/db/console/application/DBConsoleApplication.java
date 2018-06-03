@@ -5,11 +5,14 @@
  */
 package db.console.application;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -31,16 +34,17 @@ public class DBConsoleApplication {
 
 //        productDao.deleteProduct(product1);
 
-        List<Product> products = productDao.getAllProducts();
-        products.forEach(System.out::println);
+//        List<Product> products = productDao.getAllProducts();
+//        products.forEach(System.out::println);
         
 //        productDao.updateProduct(product1);
         
-//        productDao.getAllProducts().forEach(System.out::println);
+        productDao.getAllProducts().forEach(System.out::println);
 
-        System.out.println("Single Product = " + productDao.getProduct(47));
+//        System.out.println("Single Product = " + productDao.getProduct(47));
 //        for (Product product : productList)
 //            System.out.println(product);
+
     }
 
     /**

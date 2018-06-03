@@ -4,3 +4,6 @@ unitPrice=100.0
 productId=46
 productName=Orange
 unitPrice=900.0
+productId=47
+productName=Laptop
+unitPrice=15000.0
