@@ -1,0 +1,6 @@
+productId=45
+productName=Apple
+unitPrice=100.0
+productId=46
+productName=Orange
+unitPrice=900.0
